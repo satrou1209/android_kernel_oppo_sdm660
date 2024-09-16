@@ -2427,7 +2427,7 @@ static u32 find_voltage(struct clk_osm *c, unsigned long rate)
 
 #ifdef VENDOR_EDIT
 //Wenxian.zhen@Prd.BaseDrv, 2017/05/20, add for analysis power consumption
-#define CPUFREQ_660LITE_MAX_FREQ	1958400000 
+#define CPUFREQ_660LITE_MAX_FREQ	9999900000 
 unsigned int soc_is_660lite = 0;
 #endif /* VENDOR_EDIT */
 
